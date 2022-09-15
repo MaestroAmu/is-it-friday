@@ -1,0 +1,19 @@
+{% load static %}
+
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>IsItFriday?</title>
+        <link href="{% static 'isit/styles.css' %}" rel="stylesheet">
+    </head>
+    <body>
+        <div>
+            {% if friday == 4 %}
+                <h1>YES</h1>
+            {% else %}
+                <h1>NO</h1>
+            {% endif %}
+        </div>
+    </body>
+</html>

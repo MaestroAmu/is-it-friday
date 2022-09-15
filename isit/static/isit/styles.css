@@ -1,0 +1,11 @@
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 100px;
+}
+
+div {
+    height: 100vh;
+    line-height: 100vh;
+    text-align: center;
+}
